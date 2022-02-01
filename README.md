@@ -1,3 +1,7 @@
+# Why do I fork this
+
+For my own purpose to test some changes in code such as using SPI to communicate with mpu9250 or to copy some code from demorianjh's ICM-20948.
+
 # SlimeVR Tracker firmware for ESP
 
 Firmware for ESP8266 / ESP32 microcontrollers and different IMU sensors to use them as a vive-like trackers in VR.

@@ -26,9 +26,9 @@
 // ================================================
 
 // Set parameters of IMU and board used
-#define IMU IMU_BNO085
+#define IMU IMU_MPU9250
 #define SECOND_IMU IMU
-#define BOARD BOARD_SLIMEVR
+#define BOARD BOARD_CUSTOM
 #define IMU_ROTATION DEG_90
 #define SECOND_IMU_ROTATION DEG_270
 
@@ -64,6 +64,11 @@
   #define PIN_BATTERY_LEVEL A0
 #elif BOARD == BOARD_CUSTOM
   // Define pins by the examples above
+  #define PIN_IMU_SDA 16
+  #define PIN_IMU_SCL 17
+  #define PIN_IMU_INT 15
+  #define PIN_IMU_INT_2 25
+  #define PIN_BATTERY_LEVEL 36
 #elif BOARD == BOARD_WROOM32
   #define PIN_IMU_SDA 21
   #define PIN_IMU_SCL 22
